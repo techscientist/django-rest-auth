@@ -17,11 +17,11 @@ f.close()
 
 
 setup(
-    name='django-rest-auth',
+        name='rest-auth',
     version='0.6.0',
     author='Sumit Chachra',
     author_email='chachra@tivix.com',
-    url='http://github.com/Tivix/django-rest-auth',
+        url='http://github.com/Tivix/rest-auth',
     description='Create a set of REST API endpoints for Authentication and Registration',
     packages=find_packages(),
     long_description=long_description,
