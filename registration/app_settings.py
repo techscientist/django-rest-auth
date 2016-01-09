@@ -1,6 +1,6 @@
 from django.conf import settings
 
-from registration import (
+from registration.serializers import (
     RegisterSerializer as DefaultRegisterSerializer)
 from ..utils import import_callable
 
